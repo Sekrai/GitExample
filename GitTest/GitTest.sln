@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTest", "GitTest\GitTest.csproj", "{7FE54182-C320-4946-B187-D0D421F50C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE54182-C320-4946-B187-D0D421F50C66}.Debug|x86.ActiveCfg = Debug|x86
+		{7FE54182-C320-4946-B187-D0D421F50C66}.Debug|x86.Build.0 = Debug|x86
+		{7FE54182-C320-4946-B187-D0D421F50C66}.Release|x86.ActiveCfg = Release|x86
+		{7FE54182-C320-4946-B187-D0D421F50C66}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC8BB5EB-A9E7-4F30-B542-763DEF1F9204}
+	EndGlobalSection
+EndGlobal
