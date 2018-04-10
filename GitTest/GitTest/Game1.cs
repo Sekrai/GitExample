@@ -12,6 +12,8 @@ namespace GitTest
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Player myPlayer;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -29,6 +31,10 @@ namespace GitTest
             // TODO: Add your initialization logic here
 
             base.Initialize();
+
+
+            myPlayer = new Player();
+            myPlayer.Init();
         }
 
         /// <summary>
@@ -65,6 +71,9 @@ namespace GitTest
             // TODO: Add your update logic here
 
             base.Update(gameTime);
+
+            myPlayer.Update();
+            myPlayer.AttackAction(1);
         }
 
         /// <summary>
@@ -73,7 +82,7 @@ namespace GitTest
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
 
